@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+ 
+}
+
+.Menu-Clinics {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+//   background: linear-gradient(180deg, rgba(34, 34, 34, 0) 14.37%, rgba(11, 11, 11, 0.81) 73.44%);
+}
+
+.cardone {
+  background: url(../../image/Build1.png) no-repeat center center/cover;
+  width: 300px;
+  height: 320px;
+ box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+ 
+}
+
+.cardone:hover {
+  -webkit-transform: scale(1.0);
+  -ms-transform: scale(1.0);
+  transform: scale(1.2);
+  
+ 
+}
+
+
+
+.cardtwo {
+  background: url(../../image/Build2.png) no-repeat center center/cover;
+   width: 300px;
+  height: 320px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+
+ 
+}
+.cardthree {
+  background: url(../../image/Build3.png) no-repeat center center/cover;
+   width: 300px;
+  height: 320px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+  
+}
+.cardfour {
+  background: url(../../image/Build4.png) no-repeat center center/cover;
+   width: 300px;
+  height: 320px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+
+}
+
+// .card {
+//    margin-right: 10px;
+//    margin-left: 10px;
+
+// width:250px;
+
+//     align-items: center;
+//     background: white;
+//     border-radius: 8px;
+//     text-align: center;
+//     border: none;
+//         box-shadow: rgb(17, 17, 82);
+//     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+// text-align: center;
+// }
+
+// .card:hover {
+
+// background: -webkit-linear-gradient(top, #5962b1, #c3c3db);
+//     border-radius: 8px;
+
+//     transform: scale(1.1); /* Увеличиваем масштаб */
+//     transition: 1s;
+
+// }
+
+.Component-subtitle {
+  font-family: Apercu Pro;
+  font-size: 28px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+h6{
+    font-family: 'Apercu Pro';
+font-size: 25px;
+line-height: 108%;
+
+
+letter-spacing: -0.02em;
+
+color: black;
+
+padding-top: 10px;
+padding-left: 10px;
+
+}
+.card_subtitle_one{
+    font-family: 'Apercu Pro';
+font-size: 14px;
+line-height: 14px;
+
+padding-top: 10px;
+letter-spacing: -0.02em;
+padding-left: 10px;
+
+color: black;
+
+opacity: 0.6;
+}
+
+.card_subtitle_two{
+    font-family: 'Apercu Pro';
+font-size: 14px;
+line-height: 14px;
+
+padding-top: 10px;
+letter-spacing: -0.02em;
+padding-left: 10px;
+
+color: black;
+
+opacity: 0.6;
+}
+
+.fluid {
+  max-width: 100%;
+}
+
+.star_img{
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 320px) {
+  .Menu-Clinics {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .Menu-Clinics {
+    margin: auto;
+    margin-top: 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  h1 {
+    text-align: left;
+    font-size: 32px;
+  }
+
+  p {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 820px) {
+  .Menu-Clinics {
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}

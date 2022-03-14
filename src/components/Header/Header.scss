@@ -1,0 +1,280 @@
+// @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Libre+Baskerville:wght@400;700&family=Mulish&family=Roboto:wght@400;500&family=Tinos&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.header {
+  background: url(../../image/doctor.png) no-repeat center center/cover;
+  height: 100vh;
+}
+
+.headerContent {
+  max-width: 625px;
+  //   margin-left: 158px;
+  top: 125px;
+ 
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  padding-left: 25px;
+  padding-bottom: 10px;
+    padding-top: 20px;
+  font-family: 'Apercu Pro';
+  font-size: 42px;
+  line-height: 47px;
+  letter-spacing: -0.01em;
+  text-align: left;
+color: #4d4d4d;
+  
+}
+p {
+  font-family: Apercu Pro;
+  font-size: 25px;
+  font-weight: bolder;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: #4d4d4d;
+}
+
+.Practice-area {
+  display: flex;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 480px;
+  height: 60px;
+  background: #ffffff;
+  /* green main */
+
+  border: 1px solid #67ba30;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 15px rgba(91, 157, 47, 0.08);
+  border-radius: 5px;
+
+  font-size: 17px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #9f9f9f;
+  padding-left: 30px;
+}
+
+.Select-country {
+  display: flex;
+  align-self: center;
+}
+
+.Doctor {
+  display: flex;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.btn-search {
+  background: #67ba30;
+  border-radius: 5px;
+
+  color: white;
+  //   padding: 10px 20px;
+
+  margin-top: 30px;
+border: none;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #67ba30 0.61%, #458e15 99.56%);
+  border-radius: 5px 5px 5px 5px;
+  width: 120px;
+  height: 60px;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height */
+  text-align: center;
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.buttons_search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-size: 25px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  margin-right: 15px;
+  color: #4d4d4d;
+}
+h4 {
+  font-family: "Roboto";
+  font-size: 25px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  margin-right: 100px;
+  color: #4d4d4d;
+}
+h5 {
+  font-family: "Roboto";
+  font-size: 25px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  margin-right: 80px;
+  color: #4d4d4d;
+}
+
+@media screen and (max-width: 820px) {
+  .container {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .header {
+  background: url(../../image/doctor.png) no-repeat center center/cover;
+  height: 100vh;
+ 
+}
+  p {
+    text-align: left;
+  }
+
+  .headerContent {
+    width: 393px;
+
+    margin-left: 0px;
+    position: absolute;
+    z-index: +2;
+    text-align: center;
+    color: black;
+  }
+
+  h2 {
+    margin-top: 20px;
+  }
+
+  .Practice-area {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .Select-country {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Doctor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  h3 {
+    margin-right: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  h4 {
+    margin-right: 80px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  h5 {
+    margin-right: 60px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .buttons_search {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  p {
+    text-align: left;
+  }
+
+  .headerContent {
+    width: 393px;
+
+    margin-left: 0px;
+    position: absolute;
+    z-index: +2;
+    text-align: center;
+    color: black;
+  }
+
+  h2 {
+    margin-top: 20px;
+  }
+
+  .Practice-area {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .Select-country {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Doctor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+ h3{
+    margin-right: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  h4 {
+    margin-right: 80px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  h5 {
+    margin-right: 60px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .buttons_search {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+}

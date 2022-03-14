@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+.container{
+    max-width: 1440px;
+    margin:auto ;
+  
+}
+
+
+.Directions {
+   
+    
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    
+ .box{
+   
+      border: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    
+ }
+    
+ 
+}
+.subdirections{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+ 
+   
+}
+
+.card-title{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: Apercu Pro;
+font-size: 31px;
+font-weight: bolder;
+
+margin-bottom: 30px;
+
+
+letter-spacing: -0.01em;
+
+color: #4F4F4F;
+}
+p{
+    font-family: Apercu Pro;
+font-size:10px;
+line-height: 0px;
+margin-left: 30px;
+margin-top: 30px;
+
+}
+
+.Button_show{
+  
+  background: white;
+    display: flex;
+    justify-content: center;
+}
+.btn-show{
+
+    width: 550px;
+height: 60px;
+text-align: center;
+border: 1px solid #67BA30;
+box-sizing: border-box;
+border-radius: 5px;
+margin: auto;
+margin-bottom: 30px;
+
+font-family: Apercu Pro;
+font-size: 21px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #67BA30;
+
+}
+
+.icon_img {
+    margin-right: 15px;
+}
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 393px) {
+.Directions {
+   
+    
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    
+ 
+
+}
+.subdirections{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+  border: none;
+    box-shadow: rgb(17, 17, 82);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    
+   
+}
+.btn-show{
+    margin-left: 0px;
+    max-width: 300px;
+    background: white;
+}
+
+.card-title{
+    font-weight:bolder;
+}
+
+}
+@media screen and (max-width: 320px) {
+.Directions {
+   
+    
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+ 
+
+}
+
+.btn-show{
+    margin-left: 0px;
+    max-width: 300px;
+}
+    
+}

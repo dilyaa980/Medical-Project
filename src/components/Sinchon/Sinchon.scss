@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  
+  
+ 
+}
+.Sinchon{
+    
+    width:870px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Sinchon_content{
+    margin-left: 30px;
+}
+.sinchon_name{
+    font-family: 'Apercu Pro';
+font-size: 25px;
+line-height: 108%;
+/* identical to box height, or 27px */
+
+letter-spacing: -0.02em;
+
+color: #3A3A3A;
+margin-left: 10px;
+
+}
+
+.sinchon_subtitle{
+    font-family: 'Apercu Pro';
+font-size: 14px;
+line-height: 14px;
+/* identical to box height */
+padding-top:18px;
+letter-spacing: -0.02em;
+margin-left: 10px;
+color: #3A3A3A;
+
+}
+
+.sinchon_city{
+font-family: 'Apercu Pro';
+font-size: 16px;
+line-height: 16px;
+/* identical to box height */
+margin-top: 20px;
+letter-spacing: -0.02em;
+
+color: #3A3A3A;}
+
+.sinchon_location {
+    font-family: 'Apercu Pro';
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.02em;
+margin-left: 18px;
+color: #3A3A3A;
+}
+
+.sinchon_pin{
+    padding-right: 5px;
+}
+
+.options{
+    margin-top: 30px;
+    font-family: 'Apercu Pro';
+font-size: 17px;
+line-height: 160%;
+/* or 27px */
+color: #3A3A3A;
+letter-spacing: -0.01em;
+}
+
+.options:hover {
+  color: #67ba30;
+}
+.sinchon_sections{
+    width: 383px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Sinchon_descr{
+    margin: auto;
+    display: flex;
+    width:875px;
+    
+    justify-content: space-between;
+}
+.Sinchon_desc_two{
+margin: auto;
+    // display: flex;
+    width:780px;
+    font-family: 'Apercu Pro';
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+letter-spacing: -0.01em;
+
+color: #3A3A3A;
+}
+
+.Sinchon_desc_three{
+    width:406px;
+}
+
+.Sinchon_desc_four{
+    padding-top: 50px;
+    margin: auto;
+    
+    width:780px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card_title{
+    font-family: 'Apercu Pro';
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+/* green main */
+
+color: #67BA30;
+}
+.card-text{
+    font-family: 'Apercu Pro';
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+letter-spacing: -0.01em;
+
+color: #3A3A3A;
+}
+.Sinchon_descr_text{
+    
+    
+    font-family: 'Apercu Pro';
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+margin-left: 50px;
+
+letter-spacing: -0.01em;
+
+color: #3A3A3A;
+}
+
+
+.Sinchon_desc_price{
+    width:790px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Sinchon_desc_price_two{
+    padding-top: 15px;
+    margin-bottom: 100px;
+     width:790px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card_desc_price{
+    
+    padding-top: 50px;
+    width:400px;
+    height: 350px;
+    display: flex;
+   justify-content: space-around;
+   
+}
+.Card-name{
+ font-family: 'Apercu Pro';
+font-size: 17px;
+font-weight: bold;
+
+
+line-height: 0px;
+text-align: right;
+
+
+color: #3A3A3A;
+}
+
+.price_title{
+    text-align: center;
+}
+.card_title_feedback{
+font-family: 'Apercu Pro';
+font-size: 17px;
+line-height: 17px;
+/* identical to box height */
+margin-bottom: 20px;
+
+color: #3A3A3A;
+}
+.sign_img{
+margin-right: 10px;
+
+
+}
+
+.button_request{
+     margin: auto;
+    
+    width:780px;
+    margin-bottom: 100px;
+}
+.send{
+    background: linear-gradient(180deg, #67BA30 0.69%, #458E15 112.84%);
+box-shadow: 0px 3px 4px rgba(63, 123, 23, 0.224);
+border-radius: 5px;
+width: 790px;
+height: 60px;
+font-family: 'Apercu Pro';
+font-size: 17px;
+line-height: 17px;
+border: none;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+.Sinchon_doctor_desc{
+    padding-top: 30px;
+    margin: auto;
+    width:750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px
+}
+.doctor_desc{
+    border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 5px;
+width: 256px;
+height: 139px;
+}
+
+.doctor_name{
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.doc{
+    font-family: 'Apercu Pro';
+font-size: 15px;
+
+/* identical to box height, or 20px */
+
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+.direction{
+    font-family: 'Apercu Pro';
+font-size: 12px;
+
+/* or 16px */
+
+letter-spacing: -0.02em;
+
+color: #4F4F4F;
+}
+
+.doc-text{
+    font-family: 'Apercu Pro';
+font-size: 12px;
+line-height: 133%;
+/* or 16px */
+
+letter-spacing: -0.02em;
+
+color: #4F4F4F;
+
+}
+
+.hospital{
+    background: #3A3A3A;
+    font-family: 'Apercu Pro';
+font-size: 12px;
+
+/* or 16px */
+
+letter-spacing: -0.02em;
+
+/* green main */
+
+color: #67BA30;
+}
+
+.doc_img{
+    align-self: center;
+}
+.Sinchon_img_two{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.img_three{
+    margin-top: 10px;
+}
+
+
+.Send_request{
+    background: linear-gradient(180deg, #67BA30 0.69%, #458E15 112.84%);
+box-shadow: 0px 3px 4px rgba(63, 123, 23, 0.224);
+border-radius: 5px;
+width: 365px;
+height: 60px;
+margin-top: 15px;
+font-family: 'Apercu Pro';
+font-size: 17px;
+line-height: 17px;
+
+text-align: center;
+letter-spacing: -0.02em;
+border: none;
+color: #FFFFFF;
+}
+
+.button_request_three{
+    padding-top: 20px;
+    padding-bottom: 100px;
+  width:750px;
+  margin: auto;
+}
+

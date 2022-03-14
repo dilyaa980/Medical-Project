@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+ 
+}
+
+.Footer{
+    background: #2F2F2F;
+    height:160px;
+}
+
+.logo_image{
+    align-self: center;
+    margin-top: 30px;
+}
+
+.Footer_content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts{
+    margin-top: 30px;
+    padding-left: 30px;
+    color:white;
+}
